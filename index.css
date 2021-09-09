@@ -1,0 +1,68 @@
+body {
+    background-image: url("https://images5.alphacoders.com/423/423321.jpg");  
+}
+div {
+    background-color: white;
+    border-radius: 25px;
+    padding-bottom: 0.5vw;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+nav {
+    font-family: arial;
+    display: grid;
+    background-color: black;
+    padding: 1vw;
+}
+
+#middle-nav, #left-nav, #right-nav {
+    margin: auto;
+    padding: 0.5vw;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    color: white;
+    text-decoration: none;
+}
+#middle-nav {
+    font-style: italic;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#right-nav {
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+}
+#left-nav:hover, #right-nav:hover {
+    background-color: white;
+    color: black;
+}
+#title-header {
+    padding-left: 4vw;
+    margin-top: 5vw;
+    font-size: 6vw;
+}
+#title-header, #recipes-list, .recipe-list-elements {
+    text-align: left;
+    font-family: "Segoe UI";
+    color: #0F0326;
+}
+
+.recipe-list-elements {
+    padding: 1vw;
+    margin-left: 5vw;
+}
+.ingredient-link {
+    font-size: 5vw;
+    color: black;
+    outline: none;
+    text-decoration: none;
+}
+.ingredient-link:hover {
+    text-decoration: underline;
+    padding: 5px;
+    background-color: white;
+}
+

@@ -1,0 +1,94 @@
+body {
+    background-image: url("https://images5.alphacoders.com/423/423321.jpg");
+ 
+}
+h1 {
+    
+    font-family: "Segoe UI";
+}
+p,h2 {
+    font-family: arial;
+}
+
+h1 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-start: 3;   
+}
+img {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-start: 2;
+    padding-bottom: 1vw;
+    border-bottom: solid black;
+    height: 500px;
+    width: 90%;
+    object-fit: contain;
+}
+#inner-grid-container {
+    margin-right: 1vw;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3; 
+    grid-column-end: 4;  
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    border-top: solid black;
+}
+#outer-grid-container {
+    margin-right: 2vw;
+    margin-left: 2vw;
+    display: grid;
+    background-color: white;
+    padding: auto;
+    border-radius: 25px;
+}
+nav {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4; 
+    font-family: arial;
+    display: grid;
+    background-color: black;
+    padding: 1vw;
+}
+
+#middle-nav, #left-nav, #right-nav {
+    margin: auto;
+    padding: 0.5vw;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    color: white;
+    text-decoration: none;
+}
+#middle-nav {
+    font-style: italic;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#right-nav {
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+}
+#left-nav:hover, #right-nav:hover {
+    background-color: white;
+    color: black;
+}
+#recipe-description-container, #recipe-ingredients-container, #recipe-steps-container {
+    padding: 1vw;
+}
+#recipe-description-container:hover {
+    background-color: snow;
+}
+#recipe-ingredients-container:hover {
+    background-color: snow;
+}
+#recipe-steps-container:hover {
+    background-color: snow;
+}
